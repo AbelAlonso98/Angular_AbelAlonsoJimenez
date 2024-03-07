@@ -1,0 +1,7 @@
+<p *ngIf="firstTime; else welcomeBack">Hola, ¿que tal est&aacute;s?</p>
+{{firstTime}}
+<button routerLink="">Volver</button>
+
+<ng-template #welcomeBack>
+    <p>Bienvenido de vuelta</p>s
+</ng-template>

@@ -1,0 +1,15 @@
+<div class="main">
+    <p>{{time}}</p>
+    <div class="buttons">
+        <button (click)="stop()" class="stop">PAUSA</button>
+        <div class="columnButtons">
+            <button (click)="start()"class="play">PLAY</button>
+            <button (click)="record()"class="record">RECORD</button>
+        </div>
+    </div>
+    <hr>
+    <div class="records">
+        <app-lapso *ngFor="let r of records" [time] = r></app-lapso>
+    </div>
+    <button routerLink="" class="back">Volver</button>
+</div>

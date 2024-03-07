@@ -1,0 +1,20 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 65vh;
+    font-weight: 65vw;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+}
+
+.tabs{
+    display: flex;
+    gap: 5%;
+}
