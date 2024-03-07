@@ -1,6 +1,6 @@
 <mat-toolbar color="primary">
   <div class="tabs">
-      <div class="tab" [routerLink]="['/saludo', firstTime]">Saludo</div>
+      <div class="tab" [routerLink]="['/saludo', firstTime]" (click)="saludar()">Saludo</div>
       <div class="tab" routerLink="/cronometro">Cronometro</div>
 
   </div>
