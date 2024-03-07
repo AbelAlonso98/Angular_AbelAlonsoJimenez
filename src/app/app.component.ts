@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ExamenAbelAlonsoJimenez';
-  firstTime: boolean = true;
+  firstTime: string = "primeraVez";
 
   saludar(){
-    this.firstTime = false;
+    this.firstTime = "noPrimeraVez";
   }
 
 }

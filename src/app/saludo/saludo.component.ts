@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SaludoComponent {
 
-  firstTime: boolean = false;
+  firstTime: String = "";
 
   constructor(private route: ActivatedRoute){
     route.params.subscribe(

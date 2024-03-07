@@ -30,7 +30,6 @@ export class LapsoComponent implements OnInit {
     else{
       this.segundos = this.time;
     }
-    
     this.formattedTime=Math.floor(this.horas)+":"+Math.floor(this.minutos)+":"+Math.floor(this.segundos);
   }
 

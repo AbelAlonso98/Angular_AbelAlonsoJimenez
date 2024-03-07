@@ -1,6 +1,5 @@
 <div class="main">
-    <p *ngIf="firstTime">Hola, ¿que tal est&aacute;s?</p>
-    <p>{{firstTime}}</p>
+    <p *ngIf="firstTime == 'primeraVez'; else welcomeBack">Hola, ¿que tal est&aacute;s?</p>
     <button routerLink="">Volver</button>
 </div>
 
